@@ -1,0 +1,305 @@
+{
+  "questions": [
+    {
+      "question": "What is the formula for water?",
+      "subject": "Chemistry",
+      "topic": "Chemical Compounds",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "question": "Describe the process of photosynthesis.",
+      "subject": "Biology",
+      "topic": "Plant Processes",
+      "difficulty": "Medium",
+      "marks": 2
+    },
+    {
+      "question": "Explain the theory of relativity.",
+      "subject": "Physics",
+      "topic": "Theoretical Physics",
+      "difficulty": "Hard",
+      "marks": 3
+    },
+    {
+      "question": "What is the boiling point of water?",
+      "subject": "Chemistry",
+      "topic": "Basic Concepts",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "question": "Define Newton's Second Law of Motion.",
+      "subject": "Physics",
+      "topic": "Dynamics",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "subject": "Literature",
+      "topic": "Authors",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "subject": "Geography",
+      "topic": "Capitals",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "question": "Describe the process of evaporation.",
+      "subject": "Physics",
+      "topic": "Thermodynamics",
+      "difficulty": "Medium",
+      "marks": 2
+    },
+    {
+      "question": "Explain the significance of the Battle of Hastings.",
+      "subject": "History",
+      "topic": "Medieval Europe",
+      "difficulty": "Medium",
+      "marks": 2
+    },
+    {
+      "question": "What is the Pythagorean theorem?",
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "difficulty": "Medium",
+      "marks": 2
+    },
+    {
+      "question": "Outline the basic structure of a cell.",
+      "subject": "Biology",
+      "topic": "Cell Biology",
+      "difficulty": "Medium",
+      "marks": 2
+    },
+    {
+      "question": "Discuss the themes in Macbeth.",
+      "subject": "Literature",
+      "topic": "Shakespeare",
+      "difficulty": "Hard",
+      "marks": 3
+    },
+    {
+      "question": "Analyze the causes of World War II.",
+      "subject": "History",
+      "topic": "Modern History",
+      "difficulty": "Hard",
+      "marks": 3
+    },
+    {
+      "question": "Describe the concept of limit in calculus.",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "difficulty": "Hard",
+      "marks": 3
+    },
+    {
+      "question": "Explain the principle of superposition in physics.",
+      "subject": "Physics",
+      "topic": "Wave Theory",
+      "difficulty": "Hard",
+      "marks": 3
+    },
+    {
+      "question": "What are the functions of mitochondria?",
+      "subject": "Biology",
+      "topic": "Organelles",
+      "difficulty": "Medium",
+      "marks": 2
+    },
+    {
+      "question": "Define and exemplify an allegory in literature.",
+      "subject": "Literature",
+      "topic": "Literary Devices",
+      "difficulty": "Hard",
+      "marks": 3
+    },
+    {
+      "question": "What are the laws of thermodynamics?",
+      "subject": "Physics",
+      "topic": "Laws of Physics",
+      "difficulty": "Medium",
+      "marks": 2
+    },
+    {
+      "question": "Summarize the theory of plate tectonics.",
+      "subject": "Geology",
+      "topic": "Earth's Structure",
+      "difficulty": "Medium",
+      "marks": 2
+    },
+    {
+      "question": "Discuss the impact of the French Revolution.",
+      "subject": "History",
+      "topic": "Revolutionary Movements",
+      "difficulty": "Hard",
+      "marks": 3
+    },
+    {
+      "question": "What is the Fibonacci sequence?",
+      "subject": "Mathematics",
+      "topic": "Number Theory",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "question": "Explain the process of DNA replication.",
+      "subject": "Biology",
+      "topic": "Genetics",
+      "difficulty": "Hard",
+      "marks": 3
+    },
+    {
+      "question": "Describe the principles of sustainable development.",
+      "subject": "Environmental Science",
+      "topic": "Conservation",
+      "difficulty": "Medium",
+      "marks": 2
+    },
+    {
+      "question": "What is Photosynthesis?",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "question": "Define Ecosystem.",
+      "subject": "Environmental Science",
+      "topic": "Basic Concepts",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "question": "What is Newton's First Law?",
+      "subject": "Physics",
+      "topic": "Laws of Motion",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "question": "State the Pythagorean theorem.",
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "question": "Who is the author of '1984'?",
+      "subject": "Literature",
+      "topic": "Authors",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "question": "Describe the Water Cycle.",
+      "subject": "Geography",
+      "topic": "Physical Geography",
+      "difficulty": "Medium",
+      "marks": 2
+    },
+    {
+      "question": "Explain Quantum Mechanics basics.",
+      "subject": "Physics",
+      "topic": "Quantum Physics",
+      "difficulty": "Medium",
+      "marks": 2
+    },
+    {
+      "question": "What is the Theory of Relativity?",
+      "subject": "Physics",
+      "topic": "Theoretical Physics",
+      "difficulty": "Medium",
+      "marks": 2
+    },
+    {
+      "question": "Discuss Mendel's Laws of Inheritance.",
+      "subject": "Biology",
+      "topic": "Genetics",
+      "difficulty": "Medium",
+      "marks": 2
+    },
+    {
+      "question": "Analyze the causes of World War I.",
+      "subject": "History",
+      "topic": "World History",
+      "difficulty": "Medium",
+      "marks": 2
+    },
+    {
+      "question": "Explain the concept of Black Holes.",
+      "subject": "Astronomy",
+      "topic": "Cosmology",
+      "difficulty": "Hard",
+      "marks": 3
+    },
+    {
+      "question": "Discuss the impacts of Globalization.",
+      "subject": "Economics",
+      "topic": "Modern Economy",
+      "difficulty": "Hard",
+      "marks": 3
+    },
+    {
+      "question": "What are the principles of Keynesian Economics?",
+      "subject": "Economics",
+      "topic": "Economic Theories",
+      "difficulty": "Hard",
+      "marks": 3
+    },
+    {
+      "question": "Explain the structure of DNA.",
+      "subject": "Biology",
+      "topic": "Molecular Biology",
+      "difficulty": "Hard",
+      "marks": 3
+    },
+    {
+      "question": "Discuss the philosophy of Existentialism.",
+      "subject": "Philosophy",
+      "topic": "Philosophical Movements",
+      "difficulty": "Hard",
+      "marks": 3
+    },
+    {
+      "question": "What is the significance of the Magna Carta?",
+      "subject": "History",
+      "topic": "Medieval History",
+      "difficulty": "Medium",
+      "marks": 2
+    },
+    {
+      "question": "Describe the process of Photosynthesis.",
+      "subject": "Biology",
+      "topic": "Plant Biology",
+      "difficulty": "Medium",
+      "marks": 2
+    },
+    {
+      "question": "Define the concept of Supply and Demand.",
+      "subject": "Economics",
+      "topic": "Basic Concepts",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "question": "What is the Big Bang Theory?",
+      "subject": "Astronomy",
+      "topic": "Cosmology",
+      "difficulty": "Easy",
+      "marks": 1
+    },
+    {
+      "question": "Explain the significance of the Battle of Gettysburg.",
+      "subject": "History",
+      "topic": "American History",
+      "difficulty": "Medium",
+      "marks": 2
+    }
+  ]
+}
