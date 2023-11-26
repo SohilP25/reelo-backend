@@ -8,6 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon index.js"
   },
+  "engines": {
+    "node": ">=16.20.1"
+  },
   "author": "sohil",
   "license": "ISC",
   "dependencies": {
