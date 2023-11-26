@@ -1,4 +1,8 @@
 import Question from "../models/question.js";
+import PDFDocument from 'pdfkit';
+import { Readable } from 'stream';
+import generator from "../helper/generatorAI.js";
+import { DiffieHellman } from "crypto";
 
 class QueController {
   constructor() {}
@@ -88,11 +92,38 @@ class QueController {
         paper.push(...questions);
       }
 
-      res.status(200).json({
-        success: true,
-        message: "Paper Generated successfully",
-        data: paper,
-      });
+      if (req.query.format === 'pdf') {
+        const doc = new PDFDocument();
+        res.setHeader('Content-Type', 'application/pdf');
+        res.setHeader('Content-Disposition', 'attachment;filename=questions.pdf');
+        doc.pipe(res);
+        doc.fontSize(20) // Larger font size for the title
+           .font('Helvetica-Bold') // Bold font style
+           .text('Question Paper', {
+               align: 'center' // Center alignment
+           });
+        doc.moveDown(0.5);
+        
+        paper.forEach((question, index) => {
+          doc.fontSize(14).text(`${index + 1}. ${question.question}`, { continued: true }).fontSize(12).text(` (${question.marks} marks)`);
+          doc.moveDown(0.2);
+          doc.fontSize(13).text(`Subject: ${question.subject},`, { indent: 20 });
+          doc.fontSize(13).text(`Topic: ${question.topic},`, { indent: 20 });
+          doc.fontSize(13).text(`Difficulty: ${question.difficulty}`, { indent: 20 });
+          doc.moveDown(0.5);
+        });
+
+        doc.end();
+
+    } else {
+        // Return JSON response
+        res.status(200).json({
+            success: true,
+            message: "Paper Generated successfully",
+            data: paper,
+        });
+    }
+
     } catch (error) {
       console.log("Paper Generation Error", error);
       return res.status(500).json({
@@ -101,8 +132,29 @@ class QueController {
         data: {},
         err: error,
       });
-    }
+    } 
   };
+
+  generateAI = async (req,res) => {
+    try {
+      const { totalMarks, difficulty } = req.body;
+      const data = await generator(totalMarks,difficulty.Easy,difficulty.Medium,difficulty.Hard);
+      res.status(200).json({
+        success: true,
+        message: "Paper Generated with cohere LLM API successfully",
+        data: data,
+    });
+    } catch (error) {
+      console.log("Paper Generation with Error(AI)", error);
+      return res.status(500).json({
+        success: false,
+        message: error.message,
+        data: {},
+        err: error,
+      });
+    }
+  }
+
 }
 
 export default QueController;

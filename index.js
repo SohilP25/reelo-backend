@@ -3,7 +3,7 @@ import connectDB from "./config/db_connection.js";
 import router from "./routes/index.js";
 import bodyParser from "body-parser";
 import 'dotenv/config';
-const PORT = process.env.PORT || 3030;
+const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use(bodyParser.json());
